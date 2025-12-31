@@ -1,0 +1,23 @@
+# Generated documentation output
+docs-output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build artifacts
+node_modules/
+__pycache__/
+*.pyc
