@@ -58,6 +58,27 @@ your-project/
 echo "docs-output/" >> .gitignore
 ```
 
+## Optional: Optimize for Your Tech Stack
+
+After installation, you can optimize the documentation generator for your specific codebase. This produces more relevant documentation by focusing on your actual frameworks and conventions.
+
+Run this prompt in Claude Code:
+
+```
+I just installed the doc-gen command in .claude/. Please:
+
+1. Analyze my codebase to detect my tech stack (frameworks, API style, component library, documentation tools)
+2. Read the command files in .claude/commands/doc-gen.md and .claude/docs/agents/
+3. Optimize each documentation agent by:
+   - Removing templates for technologies I don't use
+   - Customizing the README template with my project's badge services
+   - Adjusting API documentation format based on my API style (REST/GraphQL)
+   - Configuring component docs for my UI framework (React/Vue/Angular)
+4. Keep the agent structure, documentation types, and output format unchanged
+
+Show me what you'll change before applying.
+```
+
 ## Usage
 
 In Claude Code, run the documentation generator command:
